@@ -323,7 +323,7 @@
   // ====== КОНФИГ ЭКСПЕРИМЕНТА ======
   // Две строки ниже заменяет build.py при генерации вариантов — не убирайте маркеры BUILD:.
   // offer=null и chipYes=null → контрольный экран (как оригинальный скриншот, без оффера).
-  var CONFIG = {"id": "digest-monthly", "num": 2, "offer": "Могу собирать для вас итоги месяца: на что ушли деньги, что изменилось и сколько удалось отложить. Раз в месяц, коротко и по делу. Подключить?", "chipYes": "Подключить бесплатно", "chipNo": "Не сейчас"}; // BUILD:CONFIG
+  var CONFIG = {"id": "digest-monthly", "num": 2, "offer": "Могу собирать для вас итоги месяца: на что ушли деньги, что изменилось и сколько удалось отложить. Раз в месяц, коротко и по делу. Подключить?", "chipYes": "Подключить", "chipNo": "Не сейчас"}; // BUILD:CONFIG
   var WEBHOOK_URL = "https://script.google.com/macros/s/AKfycbwmLf0P6jeLkL2ZPJcEKncWAbrREUHqTmY7Gaw3jJiFNg8Ry6lpkzdMfBYJppT9Bu0/exec"; // BUILD:WEBHOOK
 
   var VAR = CONFIG.num;   // номер варианта (1..16), соответствует репозиторию 8093-<VAR>
